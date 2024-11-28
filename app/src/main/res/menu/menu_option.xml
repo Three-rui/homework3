@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/menu/menu_option.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="字体大小">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/font_10"
+                    android:title="10号字体"/>
+                <item android:id="@+id/font_16"
+                    android:title="16号字体"/>
+                <item android:id="@+id/font_20"
+                    android:title="20号字体"/>
+            </group>
+        </menu>
+        </item>
+<item android:id="@+id/plain_item"
+    android:title="普通菜单项"></item>
+<item android:title="字体颜色">
+    <menu>
+        <group>
+            <item android:id="@+id/red_font"
+                android:title="红色"></item>
+            <item android:id="@+id/black_font"
+                android:title="黑色"></item>
+        </group>
+    </menu>
+</item>
+</menu>
